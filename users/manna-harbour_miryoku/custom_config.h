@@ -31,8 +31,8 @@ U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_MOUSE,KC_SPC),  LT
        N30,   N31,   K32,   K33,   K34,          K35,   K36,   K37,   N38,   N39\
 )\
 LAYOUT_split_3x6_3(\
-KC_NO, K00,   K01,   K02,   K03,   K04,          K05,   K06,   K07,   K08,   K09,   CG_TOGG,\
-KC_BTN1, K10,   K11,   K12,   K13,   K14,          K15,   K16,   K17,   K18,   K19,   DF(U_BASE),\
-KC_BTN2, K20,   K21,   K22,   K23,   K24,          K25,   K26,   K27,   K28,   K29,   KC_NO,\
-                     K32,   K33,   K34,          K35,   K36,   K37\
+DF(U_BASE),   K00,   K01,   K02,   K03,   K04,          K05,   K06,   K07,   K08,   K09,   CG_TOGG,\
+KC_BTN1,      K10,   K11,   K12,   K13,   K14,          K15,   K16,   K17,   K18,   K19,   KC_BTN1,\
+KC_BTN2,      K20,   K21,   K22,   K23,   K24,          K25,   K26,   K27,   K28,   K29,   KC_BTN2,\
+                            K32,   K33,   K34,          K35,   K36,   K37\
 )
